@@ -2,11 +2,16 @@
   <div>
     <div :class="{ footer: big, small: !big }">
       <div class="right">
-        <!-- <span
-          >《版权所有》COPYRIGHT©2023，www.inventionconvention.cn , All rights
-          reserved.<br />版权所有 © 全球发明大会中国区 未经许可 严禁复制
-          沪ICP备2022034759号-1</span
-        > -->
+        <span v-if="big"
+          >COPYRIGHT©2023，www.icc.ah.cn , All rights
+          reserved.<br />版权所有 © 全球发明大会中国区安徽赛区 未经许可 严禁复制
+          皖ICP备2022015871号-2</span
+        >
+        <span v-if="!big"
+          >《版权所有》COPYRIGHT©2023，www.icc.ah.cn<br /> , All rights
+          reserved.<br />版权所有 © 全球发明大会中国区安徽赛区<br />
+          皖ICP备2022015871号-2</span
+        >
       </div>
       <div class="left">
         <div class="img" v-if="big">
@@ -60,9 +65,15 @@ export default {
   .right {
     width: 50%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
     span {
-      color: white;
-      opacity: 0.5;
+      font-size: 12px;
+      color: #fff;
+      line-height: 20px;
+      z-index: 999;
       
     }
   }
@@ -114,7 +125,7 @@ export default {
   }
 }
 .small {
-  height: 30vh;
+  height: 350px;
   background-color: #042423;
   display: flex;
   flex-direction: column;
@@ -130,7 +141,7 @@ export default {
       color: #5a5a51;
       text-align: center;
       margin-top: 50px;
-      line-height: 4vh;
+      line-height: 18px;
     }
   }
   .left {

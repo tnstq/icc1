@@ -402,7 +402,6 @@ span,div,h1,h2,h3{
   }
 }
 .body {
-  height: 350vh;
   width: 100%;
   margin-top: 15vh;
   .hOne {
@@ -519,19 +518,20 @@ span,div,h1,h2,h3{
   .footer {
     width: 70%;
     margin: 0 auto;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10vh;
+    margin-bottom: 80px;
     .topF {
       position: relative;
-      width: 25vw;
-      height: 10vh;
+      width: 380px;
+      height: 80px;
       font-size: 24px;
       font-weight: 700;
       text-align: center;
-      line-height: 10vh;
+      line-height: 80px;
       margin-bottom: 5vh;
       .imgF1 {
         position: absolute;
@@ -569,14 +569,16 @@ span,div,h1,h2,h3{
     width: 100%;
   }
 }
+
 @keyframes picPhone {
   from {
-    transform: rotateZ(360deg);
+    transform: rotateZ(180deg);
   }
   to {
     transform: rotateZ(0deg);
 }
 }
+
 @keyframes pic2Phone {
     from{
         transform: translateX(600px);
@@ -648,7 +650,7 @@ span,div,h1,h2,h3{
         margin-top: 30px;
       }
 
-      //   图片的设置
+        //   图片的设置
       .pmd-showContent-imgs {
         width: 100%;
         height: auto;
@@ -657,14 +659,13 @@ span,div,h1,h2,h3{
           width: 100%;
           height: 100%;
         //   circle
-          animation: picPhone  1s ease-in-out 2  ;
+          animation: picPhone  1s ease-in-out 1  ;
 
         }
         .square{
-            animation: pic2Phone  1s ease-in-out 2 ;
+            animation: pic2Phone  1s ease-in-out 1 ;
         }
       }
-
       // 里面文字的设置
       .pmd-sidehead-text {
         margin-top: 20px;

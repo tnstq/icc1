@@ -26,10 +26,10 @@
           <img src="./image/add.png" alt="" /> <span>成为合作伙伴</span>
         </div>
         <div class="line">
-          <img src="./image/add.png" alt="" /> <span>成为参赛者</span>
+          <img src="./image/fire.png" alt="" /> <span>成为参赛者</span>
         </div>
         <div class="line">
-          <img src="./image/add.png" alt="" /> <span>成为志愿者</span>
+          <img src="./image/love.png" alt="" /> <span>成为志愿者</span>
         </div>
       </div>
       <div class="bottom">

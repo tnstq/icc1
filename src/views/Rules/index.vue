@@ -175,11 +175,10 @@
                 <h1 class="pmd-articleDetailTitle">竞赛宗旨</h1>
             </div>
             <p></p>
-            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
-            font-family:'宋体';">全球发明大会中国区竞赛活动提倡将科学、技术、工程、数学等科学技术素养与创新思维、社会责任意识和发明实践进行结合，激励青少年通过参与从小学到高中阶段的创新发明教育，提升综合素养，为成为具有国际视野和社会责任的创新者、发明者和创业者做好准备。</span>
+            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px; font-family: 微软雅黑;">全球发明大会中国区竞赛活动提倡将科学、技术、工程、数学等科学技术素养与创新思维、社会责任意识和发明实践进行结合，激励青少年通过参与从小学到高中阶段的创新发明教育，提升综合素养，为成为具有国际视野和社会责任的创新者、发明者和创业者做好准备。</span>
       </div>
 
-      <!-- 02 -->
+  <!-- 02 -->
       <div class="pmd-article animate2-remove " >
             <div class="pmd-mainTitle"><span> <strong>02</strong> </span> <span class="pmd-mainTitleTwo">Two</span></div>
             <div class="pmd-articleDetail">
@@ -187,11 +186,11 @@
                 <span style="line-height: 25px;"><strong>参赛对象为小学、初中、高中、中专和职高学生。根据不同年龄和创新能力的特点，以及职业教育和普通教育的差别，将参赛对象分为五个组别:</strong> </span>
             </div>
             <p></p>
-            <p>G组：一年级到二年级</p>
-            <p>P组：三年级到五年级</p>
-            <p>J组：六年级到九年级</p>
-            <p>S组：十到十二年级（高中）</p>
-            <p>V组：十到十二年级（中专和职高）</p>
+            <p> <span> G组:</span> 一年级到二年级</p>
+            <p> <span>P组:</span> 三年级到五年级</p>
+            <p> <span>J组:</span> 六年级到九年级</p>
+            <p><span>S组:</span> 十到十二年级(高中)</p>
+            <p><span>V组:</span> 十到十二年级(中专和职高)</p>
             <p></p>
             <span style="line-height: 25px;">以上所有组别的参赛对象可根据本次竞赛主题要求及赛事规则进行个人或团队报名。团队参赛组别由团队中学段最高的队员决定。</span>
       </div>
@@ -204,26 +203,22 @@
                 <span><strong>2023年3月至4月——报名及作品合规检查</strong> </span>  <br><br>
 
                 <!-- 此处使用行内样式  并且用了br在span里面换行 -->
-                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
-            font-family:'宋体';">2023年3月至4月，安徽省组委会设立，并组织全省报名相关事宜，参赛团队需要通过官方微信 公众号“全球发明大会安徽赛区”或官方网站<b>http://www.icc.ah.cn/</b>了解参赛流程，按要求进行报名注册和提交参赛材料。更多信息咨询可以添加组委会服务微信。</span>
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px; font-family: 微软雅黑;">2023年3月至4月，安徽省组委会设立，并组织全省报名相关事宜，参赛团队需要通过官方微信 公众号“全球发明大会安徽赛区”或官方网站<b>http://www.icc.ah.cn/</b>了解参赛流程，按要求进行报名注册和提交参赛材料。更多信息咨询可以添加组委会服务微信。</span>
             </div>
                 
             <div class="pmd-articleDetail">
                 <span><strong>2023年5月至6月——省级选拔赛</strong> </span>  <br> <br>
-                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
-            font-family:'宋体';">2023年5月至6月，安徽省市组委会根据属地学情，举办线上或线下“全球发明大会中国区安徽 省级竞赛活动”，筛选出进入到全国总决赛的参赛团队。 </span>
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px; font-family: 微软雅黑;">2023年5月至6月，安徽省市组委会根据属地学情，举办线上或线下“全球发明大会中国区安徽 省级竞赛活动”，筛选出进入到全国总决赛的参赛团队。 </span>
             </div>
 
             <div class="pmd-articleDetail">
                 <span><strong>2023年7月——全国总决赛</strong> </span>  <br> <br>
-                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
-            font-family:'宋体';">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px; font-family: 微软雅黑;">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
             </div>
 
             <div class="pmd-articleDetail">
                 <span><strong>2023年8月——全球邀请赛</strong> </span>  <br> <br>
-                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
-            font-family:'宋体';">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px; font-family: 微软雅黑;">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
             </div>
             <!-- <p></p> -->
             <!-- <span>举办全球发明大会全球邀请赛，为全球青少年友好交流、比拼创新能力与解决问题能力搭建良好平台，赛出当代中国青少年风采。</span> -->
@@ -256,6 +251,7 @@
             <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px;">全球发明大会中国区组委会负责制定、修订、解释竞赛和奖励办法。全球发明大会中国区组委会保留最终解释权与更改权利。</span>
       </div>
     </div>
+
     <Footer />
   </div>
 </template>
@@ -447,7 +443,6 @@ span,div,h1,h2,h3{
     }
   }
   .textTwo {
-    height: 250vh;
 
     width: 60%;
     margin: 0 auto;
@@ -608,14 +603,18 @@ span,div,h1,h2,h3{
             }
         }
 
-        // 后面的普通文本
-        p{
+      
+    p{
+            // text-align: start;
+            display: flex;
+
+            letter-spacing: 2px;
            height:23px ;
-           width: 100%;
-        }
-        
-        span{
-            
+        //    width: 100%;
+           span{
+            width: 40px;
+            text-align: center;
+           }
         }
     }
 }

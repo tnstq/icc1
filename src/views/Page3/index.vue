@@ -176,6 +176,7 @@
             </div>
       </div>
 
+      
       <!-- 线 -->
       <div class="hOne-line"></div>
       <!--  -->
@@ -184,10 +185,64 @@
             <img src="./image/5.png" alt="" class="img1" />
             <img src="./image/6.png" alt="" class="img2" />
           </div>
+         <!-- 放pdf图片 -->
+          <!-- 放第一个pdf图片 -->
+          <div class="pdfImg1">
+            <img src="./image/a0.jpg" alt="" />
+            <img src="./image/a1.jpg" alt="" />
+            <img src="./image/a2.jpg" alt="" />
+            <img src="./image/a3.jpg" alt="" />
+            <img src="./image/a4.jpg" alt="" />
+            <img src="./image/a5.jpg" alt="" />
+            <img src="./image/a6.jpg" alt="" />
+            <img src="./image/a7.jpg" alt="" />
+            <img src="./image/a8.jpg" alt="" />
+            <img src="./image/a9.jpg" alt="" />
+            <img src="./image/a10.jpg" alt="" />
+            <img src="./image/a11.jpg" alt="" />
+            <img src="./image/a12.jpg" alt="" />
+            <img src="./image/a13.jpg" alt="" />
+            <img src="./image/a14.jpg" alt="" />
+            <img src="./image/a15.jpg" alt="" />
+            <img src="./image/a16.jpg" alt="" />
+            <img src="./image/a17.jpg" alt="" />
+            <img src="./image/a18.jpg" alt="" />
+            <img src="./image/a19.jpg" alt="" />
+            <img src="./image/a20.jpg" alt="" />
+            <img src="./image/a21.jpg" alt="" />
+            <img src="./image/a22.jpg" alt="" />
+          </div>
+          <!-- 放第二个pdf图片 -->
+          <div class="pdfImg2">
+            <img src="./image/0.jpg" alt="" />
+            <img src="./image/1.jpg" alt="" />
+            <img src="./image/2.jpg" alt="" />
+            <img src="./image/3.jpg" alt="" />
+            <img src="./image/4.jpg" alt="" />
+            <img src="./image/5.jpg" alt="" />
+            <img src="./image/6.jpg" alt="" />
+            <img src="./image/7.jpg" alt="" />
+            <img src="./image/8.jpg" alt="" />
+            <img src="./image/9.jpg" alt="" />
+            <img src="./image/10.jpg" alt="" />
+            <img src="./image/11.jpg" alt="" />
+            <img src="./image/12.jpg" alt="" />
+            <img src="./image/13.jpg" alt="" />
+            <img src="./image/14.jpg" alt="" />
+            <img src="./image/15.jpg" alt="" />
+            <img src="./image/16.jpg" alt="" />
+            <img src="./image/17.jpg" alt="" />
+            <img src="./image/18.jpg" alt="" />
+            <img src="./image/19.jpg" alt="" />
+            <img src="./image/20.jpg" alt="" />
+          </div>
+    
 
+
+<!-- 项目未完成的时候显示的样式 -->
       <div class="pmd-showContent">
-        <span>※该页面手机端无法完整显示</span>
-        <span>请前往PC端官方网站进行浏览</span>
+        <!-- <span>※该页面手机端无法完整显示</span> -->
+        <!-- <span>请前往PC端官方网站进行浏览</span> -->
       </div>
     </div>
     <Footer></Footer>
@@ -465,7 +520,7 @@ span,div,h1,h2,h3{
 
   // 内容
   .pmd-showContent {
-    margin: 40px 0;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -488,28 +543,32 @@ span,div,h1,h2,h3{
 //   卡片区块样式
 .pmd-cards{
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
     
     // 每一块卡片的设置
     .pmd-cardsOne{
-        width: 200px;
-        height: 200px;
-        margin: 20px 0;
+        width: 165px;
+        height: 165px;
+        margin: 10px 0;
         background: #f5f5f5;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        // gap: 10px;
         align-items: center;
         justify-content: center;
       animation: rotateZ 2s;
+      gap: 10px
+      ;
 
 
         // 里面图标的设置
         .cardsImg{
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
         }
 
         span{
@@ -523,5 +582,44 @@ span,div,h1,h2,h3{
         }
     }
 }
+
+// pdf 放置的位置
+   
+    // width: 100vw;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // h2{
+    //     margin: 20px 0;
+    // }
+    .pdfImg1 {
+      margin: 20px auto;
+      margin-top: 40px;
+      border: 1px solid gray;
+      height: 500px;
+      width: 90%;
+      background-color: #fff;
+      overflow: scroll;
+      margin-bottom: 40px;
+      
+      img {
+        width: 100%;
+      }
+    }
+
+       .pdfImg2 {
+      margin: 20px auto;
+      border: 1px solid gray;
+      height: 500px;
+      width: 90%;
+      background-color: #fff;
+      overflow: scroll;
+      margin-bottom: 40px;
+      
+      img {
+        width: 100%;
+      }
+    }
 }
+
 </style>
